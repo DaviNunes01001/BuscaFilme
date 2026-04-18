@@ -1,16 +1,41 @@
-# React + Vite
+# BuscaFilme — Busca de Filmes e Séries
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![IMDb API](https://img.shields.io/badge/IMDb-API-yellow)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o projeto
 
-## React Compiler
+Aplicação React que permite buscar filmes e séries consumindo a **IMDb API**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O usuário digita o nome de um filme ou série, a aplicação exibe uma grid de resultados com pôsteres, e ao clicar em um item, mostra detalhes como título, ano de lançamento e ID do IMDb.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funcionalidades
+
+- 🎬 Busca de filmes e séries por nome
+- 🎥 Exibição em grid com pôsteres
+- 📋 Detalhes ao clicar: título, ano, ID
+- ⏳ Estado de carregamento
+- ❌ Tratamento de erros
+- ⌨️ Busca por Enter ou clique no botão
+- 🔙 Botão voltar para lista
+
+---
+
+## Tecnologias
+
+- React (^19.2.4)
+- Vite
+- JavaScript
+- IMDb API (https://imdb.iamidiotareyoutoo.com)
+
+---
+
+## Estrutura do projeto
+
